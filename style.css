@@ -1,0 +1,38 @@
+
+/* Add some basic styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+#calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 400px;
+    width: 100%;
+}
+button {
+    padding: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+#user-input {
+    grid-column: span 4;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: right;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.operations{
+  color: rgb(91, 91, 248);
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.numbers{
+  font-weight: bold;
+  background-color: #ffffff;
+}
